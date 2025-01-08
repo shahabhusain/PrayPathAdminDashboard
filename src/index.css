@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+   background: #712A8F0D;
+   color: #712A8F;
+   padding: 10px 20px;
+   border-right: 3px solid #712A8F;
+}
+
+body{
+    max-width: 1555px;
+    margin: 0 auto;
+}
