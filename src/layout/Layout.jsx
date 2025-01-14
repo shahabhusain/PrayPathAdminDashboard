@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom'
 const Layout = () => {
   return (
     <div className=' flex gap-6'>
-         <div className=''>
+         <div className=' sticky top-0 h-screen'>
          <SideBar />
          </div>
            <div className=' w-[100%] pb-12 ml-[15rem]'>
