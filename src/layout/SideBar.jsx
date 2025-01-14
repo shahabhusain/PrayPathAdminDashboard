@@ -9,7 +9,7 @@ import { FaRegStar } from "react-icons/fa";
 const SideBar = () => {
   const [open, setOpen] = useState(1)
   return (
-    <div className='bg-[#F3F3F6] h-screen sticky top-0'>
+    <div className='bg-[#F3F3F6] h-screen absolute w-[250px]'>
       <div className='flex items-center justify-center pt-8'>
       <img className='w-[73px] h-[50px]' src={logo} alt="" />
       </div>
